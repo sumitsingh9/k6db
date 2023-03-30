@@ -5,4 +5,4 @@ const outputSchema = new mongoose.Schema({
     age: Number
 })
 
-module.exports = mongoose.model('outputModel', outputSchema)
+module.exports = mongoose.model('outputModel', outputSchema, 'myColl')
